@@ -1,10 +1,13 @@
+require "colorize"
+
 @answers = [
   "Follow your heart",
   "Go for it",
   "Dont be a dumbass",
   "Better luck next",
   "Nope",
-  "Never gonna happen"
+  "Never gonna happen",
+  "Fuck you go away"
 ]
 
 def menu
@@ -20,7 +23,7 @@ end
 
 def answer
   puts "I'm thinking..."
-  puts "#{@answers.sample}"
+  puts @answers.sample .green
   puts "Type quit or just ask another question."
   choice
 end
