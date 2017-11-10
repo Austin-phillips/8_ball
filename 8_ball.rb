@@ -1,1 +1,2 @@
 Puts "class"
+puts "help"
