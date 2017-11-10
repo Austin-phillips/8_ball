@@ -6,8 +6,7 @@ require "colorize"
   "Dont be a dumbass",
   "Better luck next",
   "Nope",
-  "Never gonna happen",
-  "Fuck you go away"
+  "Never gonna happen"
 ]
 
 def menu
