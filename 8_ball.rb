@@ -4,9 +4,12 @@ require "colorize"
   "Follow your heart",
   "Go for it",
   "Dont be a dumbass",
-  "Better luck next",
+  "Better luck next time",
   "Nope",
-  "Never gonna happen"
+  "Never gonna happen",
+  "Outlook not so good",
+  "Reply hazy try again",
+  "Cannot predict now"
 ]
 
 def menu
